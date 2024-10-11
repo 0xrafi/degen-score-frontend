@@ -1,4 +1,4 @@
-import DegenDashboard from '../components/DegenDashboard';
+import DegenDashboard from '../components/layout/DegenDashboard';
 
 export default function Home() {
   return (

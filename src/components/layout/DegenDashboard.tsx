@@ -1,9 +1,9 @@
 import Header from "./Header";
-import Leaderboard from "./Leaderboard";
-import CalculateScore from "./CalculateScore";
-import AddressCalculator from "./AddressCalculator";
+import Leaderboard from "../Leaderboard";
+import AztecCalculateScore from "../AztecCalculateScore";
+import AddressCalculator from "../AddressCalculator";
 import Footer from "./Footer";
-import DegenScore from "./DegenScore";
+import DegenScore from "../DegenScore";
 
 export default function DegenDashboard() {
   return (
@@ -11,9 +11,10 @@ export default function DegenDashboard() {
       <Header />
       <main className="flex-1 grid grid-cols-1 gap-8 p-8 md:grid-cols-2 md:p-8">
         <Leaderboard />
-        <CalculateScore />
         <AddressCalculator />
+        <AztecCalculateScore />
         <DegenScore />
+        
       </main>
       <Footer />
     </div>

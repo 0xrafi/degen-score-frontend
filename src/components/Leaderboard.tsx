@@ -6,7 +6,7 @@ import {
   TableBody,
   TableCell,
 } from "@/components/ui/table";
-import StarIcon from "./StarIcon";
+import StarIcon from "./icons/StarIcon";
 
 export default function Leaderboard() {
   return (
@@ -23,7 +23,7 @@ export default function Leaderboard() {
       <TableBody>
         <TableRow>
           <TableCell className="font-mono">1</TableCell>
-          <TableCell className="font-mono">0x123...abc</TableCell>
+          <TableCell className="font-mono">vitalik</TableCell>
           <TableCell>
             <div className="flex items-center gap-2">
               <span className="text-[#4d4d4d] font-bold font-mono">
@@ -35,7 +35,7 @@ export default function Leaderboard() {
         </TableRow>
         <TableRow>
           <TableCell className="font-mono">2</TableCell>
-          <TableCell className="font-mono">0x456...def</TableCell>
+          <TableCell className="font-mono">obama</TableCell>
           <TableCell>
             <div className="flex items-center gap-2">
               <span className="text-[#4d4d4d] font-bold font-mono">
@@ -47,11 +47,35 @@ export default function Leaderboard() {
         </TableRow>
         <TableRow>
           <TableCell className="font-mono">3</TableCell>
-          <TableCell className="font-mono">0x789...ghi</TableCell>
+          <TableCell className="font-mono">zyndaya</TableCell>
           <TableCell>
             <div className="flex items-center gap-2">
               <span className="text-[#4d4d4d] font-bold font-mono">
-                9.2
+                9.3
+              </span>
+              <StarIcon className="w-4 h-4 text-[#4d4d4d]" />
+            </div>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell className="font-mono">4</TableCell>
+          <TableCell className="font-mono">i_am_table</TableCell>
+          <TableCell>
+            <div className="flex items-center gap-2">
+              <span className="text-[#4d4d4d] font-bold font-mono">
+                9.1
+              </span>
+              <StarIcon className="w-4 h-4 text-[#4d4d4d]" />
+            </div>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell className="font-mono">5</TableCell>
+          <TableCell className="font-mono">pessimism</TableCell>
+          <TableCell>
+            <div className="flex items-center gap-2">
+              <span className="text-[#4d4d4d] font-bold font-mono">
+                8.2
               </span>
               <StarIcon className="w-4 h-4 text-[#4d4d4d]" />
             </div>

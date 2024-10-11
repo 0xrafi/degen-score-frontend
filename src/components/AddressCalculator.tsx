@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { AccordionOptions } from "./AccordionOptions";
 
 export default function AddressCalculator() {
   return (
@@ -11,7 +12,7 @@ export default function AddressCalculator() {
       <div className="grid grid-cols-1 gap-4">
         <div>
           <Label htmlFor="address" className="text-sm text-[#b3b3b3] font-mono">
-            Enter an Ethereum address to calculate its degen score.
+            Manually enter an Ethereum address to calculate its degen score.
           </Label>
           <Input
             id="address"
@@ -27,6 +28,7 @@ export default function AddressCalculator() {
           Calculate Score
         </Button>
       </div>
+      <AccordionOptions />
     </div>
   );
 }
