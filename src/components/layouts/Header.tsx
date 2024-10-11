@@ -13,11 +13,10 @@ export default function Header() {
       <header className="flex items-center justify-between px-8 py-4 border-b border-[#333333]">
         <div className="flex items-center gap-4">
           <Image
-            src={"/images/lil-pirate.svg"}
-            alt="Dashboard Icon"
+            src="/images/lil-pirate.svg"
+            alt="lil pirate"
             width={50}
             height={50}
-            style={{ marginRight: "8px", verticalAlign: "middle" }}
           />
           <h1 className="text-2xl font-bold font-mono">degen score</h1>
         </div>

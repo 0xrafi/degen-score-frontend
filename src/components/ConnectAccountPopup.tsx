@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import Popup from "./layout/Popup";
+import Popup from "./layouts/Popup";
 import { useAztecAccount } from '@/contexts/AztecAccountContext';
 
 interface ConnectAccountPopupProps {
