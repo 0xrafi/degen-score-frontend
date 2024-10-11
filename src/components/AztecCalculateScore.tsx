@@ -44,7 +44,13 @@ export default function AztecCalculateScore() {
           {isConnected ? 'Account Connected' : 'Connect Account to Calculate'}
         </Button>
       </div>
-      <ConnectAccountPopup isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
+      <ConnectAccountPopup 
+        isOpen={isPopupOpen} 
+        onClose={() => setIsPopupOpen(false)} 
+        onSecretGenerated={(secret: string) => {
+          // Handle the generated secret here
+        }} 
+      />
     </div>
   );
 }
