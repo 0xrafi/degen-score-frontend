@@ -6,10 +6,10 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
         <p> Aztec Demo 🤑</p>
         <div className="flex items-center gap-4">
-          <Link href="#" className="hover:underline font-mono" prefetch={false}>
+          <Link href="/about" className="hover:underline font-mono">
             About
           </Link>
-          <Link href="#" className="hover:underline font-mono" prefetch={false}>
+          <Link href="/how-it-works" className="hover:underline font-mono">
             How It Works
           </Link>
         </div>

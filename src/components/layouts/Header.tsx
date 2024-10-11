@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import ConnectAccountPopup from "../ConnectAccountPopup";
 import { useAztecAccount } from '@/contexts/AztecAccountContext';
+import Link from 'next/link';
 
 export default function Header() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -18,7 +19,9 @@ export default function Header() {
             width={50}
             height={50}
           />
-          <h1 className="text-2xl font-bold font-mono">degen score</h1>
+          <Link href="/" className="text-2xl font-bold font-mono hover:text-[#b3b3b3] transition-colors">
+            degen score
+          </Link>
         </div>
         <div className="flex items-center gap-4">
           <Button
