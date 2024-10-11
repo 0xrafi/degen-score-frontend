@@ -71,7 +71,7 @@ export default function Leaderboard() {
         </TableRow>
         <TableRow>
           <TableCell className="font-mono">5</TableCell>
-          <TableCell className="font-mono">pessimism</TableCell>
+          <TableCell className="font-mono">pessimism-L2</TableCell>
           <TableCell>
             <div className="flex items-center gap-2">
               <span className="text-[#4d4d4d] font-bold font-mono">

@@ -12,7 +12,7 @@ export default function AddressCalculator() {
       <div className="grid grid-cols-1 gap-4">
         <div>
           <Label htmlFor="address" className="text-sm text-[#b3b3b3] font-mono">
-            Manually enter an Ethereum address to calculate its degen score.
+          Enter a valid Ethereum address to calculate its degen score or create an Aztec account.
           </Label>
           <Input
             id="address"

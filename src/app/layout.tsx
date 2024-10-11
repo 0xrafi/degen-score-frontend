@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import { ReactNode } from 'react'
 import './globals.css'
+import { AztecAccountProvider } from '@/contexts/AztecAccountContext'
 
 const fontHeading = Inter({
   subsets: ['latin'],
@@ -25,7 +26,9 @@ export default function Layout({ children }: { children: ReactNode }) {
           fontBody.variable
         )}
       >
-        {children}
+        <AztecAccountProvider>
+          {children}
+        </AztecAccountProvider>
       </body>
     </html>
   )
